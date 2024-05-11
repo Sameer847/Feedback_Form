@@ -1,0 +1,168 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollable-section {
+    flex: 1;
+    overflow-y: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #343434;
+    background-color: #fafafa;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 100%;
+    padding: 30px;
+}
+
+label {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700px;
+}
+
+.star-rating {
+    font-size: 30px;
+    text-align: center;
+}
+
+.star-rating i {
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #d20404;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+    text-align: center !important;
+}
+
+.question p {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+/* Modal */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 250px;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    /* Example margin */
+}
+
+.header {
+    /* background-color: #fa1e1e; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+
+.footer {
+    background-color: #0326a6;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.feedback-form {
+    color: #1b1b1b;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Center the customer name field and make it full width */
+
+.customer_name_cs {
+    width: 50%;
+    height: 30px;
+    display: block;
+
+    border: 1px solid black;
+    text-align: center;
+}
+
